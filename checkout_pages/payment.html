@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Payment | Myntra Clone</title>
+  <link rel="stylesheet" href="../Frontend/styles.css">
+  <link rel="stylesheet" href="../Frontend/utilities.css" />
+  <link rel="icon" href="../Frontend/images/myntra.png" />
+</head>
+<body>
+  <header class="header">
+  </header>
+
+  <main class="payment-wrapper">
+    <h2>Choose Payment Method</h2>
+  </main>
+  <button class="btn-place-order" id="rzp-button1">Pay</button>
+  <!-- ✅ Load dress data before checkout logic -->
+  <script src="../data/dress_items.js"></script>
+
+  <!-- ✅ Razorpay official script -->
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+  <!-- ✅ Shared header/footer -->
+  <script src="./header_footer.js"></script>
+
+  <!-- ✅ Checkout logic with Razorpay API call -->
+  <script src="./checkout.js"></script>
+
+</body>
+</html>

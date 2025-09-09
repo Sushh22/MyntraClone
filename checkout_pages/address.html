@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Address | Myntra Clone</title>
+  <link rel="stylesheet" href="../Frontend/styles.css">
+  <link rel="stylesheet" href="../Frontend/utilities.css" />
+  <link rel="icon" href="../Frontend/images/myntra.png" />
+</head>
+<body>
+  <header class="header">
+  </header>
+
+  <main class="address-form-wrapper">
+    <form id="addressForm">
+      <h2>Shipping Address</h2>
+      <label>Full Name</label>
+      <input type="text" required name="name" />
+      <label>Mobile Number</label>
+      <input type="tel" required name="phone" />
+      <label>Pin Code</label>
+      <input type="text" required name="pincode" />
+      <label>Address (Area and Street)</label>
+      <input type="text" required name="address" />
+      <label>City</label>
+      <input type="text" required name="city" />
+      <label>State</label>
+      <input type="text" required name="state" />
+
+      <button type="submit" class="btn-place-order">Proceed to Payment</button>
+    </form>
+  </main>
+
+  <script>
+    document.getElementById("addressForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+
+      const formData = new FormData(this);
+      const addressData = Object.fromEntries(formData.entries());
+      localStorage.setItem("shippingAddress", JSON.stringify(addressData));
+
+      // Redirect to payment
+      window.location.href = "payment.html";
+    });
+  </script>
+  <script src="./header_footer.js"></script>
+</body>
+</html>
