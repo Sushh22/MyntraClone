@@ -4,7 +4,7 @@ headerr.innerHTML=`<nav class="flex">
         <div class="left flex uppercase">
           <img
             class="logo_nav"
-            src="../Frontend/images/Myntra_logoo.png"
+            src="../images/Myntra_logoo.png"
             alt="myntra logo"
           />
           
@@ -14,7 +14,7 @@ headerr.innerHTML=`<nav class="flex">
             <span class="divider">--------------</span>
             <a class="shoppingHeader" href="./payment.html">&nbsp;Payment</a>
           
-            <img class="logo_nav secureLogo" src="../Frontend/images/shopping cart/sprite-secure.png" alt="">
+            <img class="logo_nav secureLogo" src="../images/shopping cart/sprite-secure.png" alt="">
             <span class="secureText">&nbsp;100% Secure</span>
         </div>
       </nav>`
@@ -62,7 +62,7 @@ footerr.innerHTML=`<footer class="footerClass">
               <a href=""
                 ><img
                   class="imgInFooter"
-                  src="../Frontend/images/Experience on mobile/Apple.png"
+                  src="../images/Experience on mobile/Apple.png"
                   alt=""
               /></a>
             </li>
@@ -70,7 +70,7 @@ footerr.innerHTML=`<footer class="footerClass">
               <a href=""
                 ><img
                   class="imgInFooter"
-                  src="../Frontend/images/Experience on mobile/Googleplay.png"
+                  src="../images/Experience on mobile/Googleplay.png"
                   alt=""
               /></a>
             </li>
@@ -80,7 +80,7 @@ footerr.innerHTML=`<footer class="footerClass">
               <a href=""
                 ><img
                   class="imgInFooter"
-                  src="../Frontend/images/Experience on mobile/insta.png"
+                  src="../images/Experience on mobile/insta.png"
                   alt=""
               /></a>
             </li>
@@ -88,7 +88,7 @@ footerr.innerHTML=`<footer class="footerClass">
               <a href=""
                 ><img
                   class="imgInFooter"
-                  src="../Frontend/images/Experience on mobile/facebook.png"
+                  src="../images/Experience on mobile/facebook.png"
                   alt=""
               /></a>
             </li>
@@ -96,7 +96,7 @@ footerr.innerHTML=`<footer class="footerClass">
               <a href=""
                 ><img
                   class="imgInFooter"
-                  src="../Frontend/images/Experience on mobile/twitter.png"
+                  src="../images/Experience on mobile/twitter.png"
                   alt=""
               /></a>
             </li>
@@ -104,7 +104,7 @@ footerr.innerHTML=`<footer class="footerClass">
               <a href=""
                 ><img
                   class="imgInFooter"
-                  src="../Frontend/images/Experience on mobile/youtube.png"
+                  src="../images/Experience on mobile/youtube.png"
                   alt=""
               /></a>
             </li>
